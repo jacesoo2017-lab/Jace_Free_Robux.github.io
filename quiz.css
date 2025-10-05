@@ -1,0 +1,156 @@
+html, body{
+    height: 150%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 150%;
+    background: linear-gradient(to top, #03fc1c, #03dffc);
+}
+
+.quiz-title{
+    text-align: center;
+    background-color: chartreuse;
+    font-size: 28px;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    animation: drop-anim 3s ease-in-out;
+}
+
+@keyframes drop-anim {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.quiz-container{
+    width: 800px;
+    height: 280px;
+    background-color: skyblue;
+    margin:auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+
+
+.progress-bar-bg{
+    width: 90%;
+    height: 12px;
+    background-color: rgb(2, 3, 3);
+    margin: auto;
+    border-radius: 10px;
+}
+  
+.progress-bar-fill {
+    width: 50%;
+    height: 12px;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+
+        
+        
+        
+.question {
+    color: rgb(6, 7, 7);
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.drop-down {
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 800;
+    background-color:lightsalmon;
+}
+
+.start-btn {
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.start-btn:hover{
+    background-color: gold;
+}
+
+.timer{
+    background-color: cyan;
+    font-size: 28px;
+    width: 120px;
+    margin: auto;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    margin-top: 30px;
+    border-radius: 60px;
+    padding: 40px 10px;
+}
+
+.option-btn{
+    display:Block ;
+    margin: auto;
+    width: 60%;
+    font-size: 14px;
+    font-family: 'press start 2p',cursive;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.option-btn:hover {
+    background-color: cyan;
+}
+
+
+.score-label {
+    color: cyan;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.feedback-label {
+    color: cyan;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.bgm-dropdown{
+    margin:auto;
+    display: block;
+    margin-top: 20px;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    background-color: gold;
+}
+
+.music-btn {
+    margin: auto;   
+    display: block;
+}
+
+
+
+
+
+
+

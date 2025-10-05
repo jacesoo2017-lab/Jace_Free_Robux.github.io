@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title>quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-title">
+        General sibidi brainrot grow a garden knowledge quiz
+    </div>
+    
+    <div class="quiz-container">
+        <!-- progress bar -->
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div> 
+
+        <!-- question label-->
+        <div class="question" id="question">
+            Question will be display here.clickstart to begin
+        </div>
+
+        <!-- drop down menu -->
+        <select class="drop-down" id="drop-down">
+            <option value="1"> Easy 👿 </option>
+            <option value="2"> Medium 👿 👿</option>
+            <option value="3"> Hard 👿 👿 👿 </option>
+        </select>
+
+        <!-- option buttons -->
+        <div class="option-container" id="option-container"></div>
+
+        <!-- score/feedback label -->
+        <div class="score-label" id="score-label">
+            You scored 0 point(s)
+        </div>
+
+        <div class="feedback-label" id="feedback-label">
+            N.A.
+        </div>
+
+        <!-- start button -->
+        <button class="start-btn" id="start-btn"> START </button>
+    </div>
+
+    <div class="timer">
+        <span id="timer-label"> 15  </span>
+    </div>
+
+
+    <select class="bgm-dropdown" id="bgm-dropdown">
+        <option value=""> -- Select a soundtrack -- </option>
+        <option value="sounds.mp3"> This is what it sounds like </option>
+        <option value="idol.mp3"> Your Idol </option>
+        <option value="golden.mp3"> Golden </option>
+    </select>
+
+    <button class="music-btn" id="music-btn">   🔇Music Off    </button>
+
+    <script src="script.js"></script> 
+</body>
+</html>
